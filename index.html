@@ -4,75 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>component library</title>
-    <body>
-        <link href="styles.css" rel="stylesheet"/>
-    <h1>Welcome to Sainarendra component library</h1>
-    <P>I AM LEARNING HTML AND CSS IN TANAY PRATAPS'S WORKSHOP</P>
-    <hr>
-    <h2>@typography</h2>
-    <h1>biggest heading</h1>
-<h2>second biggest heading</h2>
-<p>the text has <strong>bold</strong> heading</p>
-<small>this is smallest heading</small>
-<hr>
-<h2>@container</h2>
-<h3 class="container">fluid container</h3>
-<div>this will go till end of the page</div>
-<h3>center container</h3>
-<div class="container-center">this is centered container go at sspecfied width</div>
-<hr>
-<h2>@links</h2>
-<a class="primarylink" href="/">primary link</a>  
-<a class="secondarylink" href="/">secondary link</a>
-<hr>
-<h2>@list</h2>
-<h3>unordered list</h3>
-<ul>
-<li>sai</li> 
-<li>narendra</li>
-<li>nimma</li>
-</ul>
-<h3>orderedlist</h3>
-<ol>
-<li>mahesh</li>
-<li>babu</li>
-<li>ghattamaneni</li>
-</ol> 
-<hr>
-<h2>@nav</h2>
-<div>I am webdeveloper</div>
-<ul>
-<li><a href="/">home</a></li>
-<li><a href="/">projects</a></li>
-<li><a href="/">blog</a></li>
-</ul>
-<hr>
-<h2>@header</h2>
-<header>
-    <img src="images/webpd.svg"/>
-    heading inside header  
-</header>
-<img src=""/>
-<hr>
-<h2>@section</h2>
-<h3>white section</h3>
-<section>
-<p>this will have white background</p>
-</section>
-<h3>off white section</h3>
-<section>
-<p>this will have grey background</p>
-</section>
-<hr>
-<h2>@footer</h2>
-<footer>
-    <ul>
-    <li>facebook</li>
-    <li>instagram</li>
-    <li>twitter</li>
-    </ul>
-</footer>
-</head>    
+    <title>home | sai narendra</title>
+</head>
+<body>
+    <link href="styles.css" rel="stylesheet"/>
+    <nav class="navigation container">
+        <div class="navbrand">
+            I am web developer
+        </div>
+        <ul class="non-bullet nav-pills">
+        <li class="list-item-inline"><a class="link link-active" href="/">home</a></li>
+        <li class="list-item-inline"><a class="link"href="/">projects</a></li>
+        <li class="list-item-inline"><a class="link" href="/">blog</a></li>
+        </ul>
+        </nav>
+        <header class="hero">
+            <img class="hero-img"src="images/webpd.svg"/>
+           <h2 class="hero-heading">Sai narendra the <span class="heading-inverted">web developer</span> </h2> 
+        </header>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>technologies</h1>
+    <p>I am familiar with HTML5,CSS,PYTHON,WEB HOSTING,C LANGUAGE,MATLAB</p>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container container-center"><h1>projects</h1>
+            <p>I like to show case projects online,so I will share the link which i hosted online</p>
+            <a class="primarylink" href="/">see Projects</a>
+        </div>
+    </section>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>blogs</h1>
+    <p>I will post it soon.stay tuned my dear wellwishers....</p>
+    <a class="secondarylink" href="/">read blogs</a>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-header">connect me</div>
+        <ul class="social-link non-bullet">
+        <li class="list-item-inline"><a class="link" href="/">facebook</a></li>
+        <li class="list-item-inline"><a class="link" href="/">instagram</a></li>
+        <li class="list-item-inline"><a class="link" href="/">twitter</a></li>
+        </ul>
+    </footer>
 </body>
-</html> 
+</html>
